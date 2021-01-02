@@ -1,0 +1,7 @@
+{
+  "ext": "js",
+  "watch": ["build/"],
+  "execMap": {
+    "js": "node -r dotenv/config"
+  }
+}

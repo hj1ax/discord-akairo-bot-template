@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hj1ax/discord-akairo-bot-template.git",
+  "author": "Jiaxing Hu <jiaxinghu52@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "yarn && yarn run build",
+    "start": "node build/main.js",
+    "start:dev": "node -r dotenv/config build/main.js",
+    "start:watch": "nodemon build/main.js",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.19",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.5.1"
+  }
+}
