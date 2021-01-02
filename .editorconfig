@@ -1,0 +1,6 @@
+[*.{js,ts}]
+tab_width = 4
+indent_style = tab
+indent_size = tab
+end_of_line = lf
+charset = utf-8

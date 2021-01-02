@@ -4,10 +4,13 @@
     "target": "ES2015",
     "outDir": "build/",
     "baseUrl": "src/",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "sourceMap": false,
     "inlineSourceMap": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "incremental": true,
   },
   "exclude": [
     "node_modules"
